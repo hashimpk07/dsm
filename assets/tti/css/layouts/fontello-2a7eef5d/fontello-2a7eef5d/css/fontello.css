@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?755693');
+  src: url('../font/fontello.eot?755693#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?755693') format('woff'),
+       url('../font/fontello.ttf?755693') format('truetype'),
+       url('../font/fontello.svg?755693#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?755693#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-add:before { content: '\e800'; } /* '' */
+.icon-broker:before { content: '\e801'; } /* '' */
+.icon-block:before { content: '\e802'; } /* '' */
+.icon-close:before { content: '\e803'; } /* '' */
+.icon-colapse:before { content: '\e804'; } /* '' */
+.icon-expand:before { content: '\e805'; } /* '' */
+.icon-approve:before { content: '\e806'; } /* '' */
+.icon-layer:before { content: '\e807'; } /* '' */
+.icon-unblock:before { content: '\e808'; } /* '' */
+.icon-customer:before { content: '\e809'; } /* '' */
+.icon-employee:before { content: '\e80a'; } /* '' */
+.icon-edit:before { content: '\e80b'; } /* '' */
+.icon-up:before { content: '\e80c'; } /* '' */
+.icon-uparrow:before { content: '\e80d'; } /* '' */
+.icon-user:before { content: '\e80e'; } /* '' */
+.icon-view:before { content: '\e80f'; } /* '' */
+.icon-warning:before { content: '\e810'; } /* '' */
+.icon-leads:before { content: '\e811'; } /* '' */
+.icon-notification:before { content: '\e812'; } /* '' */
+.icon-masters:before { content: '\e813'; } /* '' */
+.icon-list:before { content: '\e814'; } /* '' */
+.icon-search:before { content: '\e815'; } /* '' */
+.icon-thumpsup:before { content: '\e816'; } /* '' */
+.icon-convert:before { content: '\e818'; } /* '' */
+.icon-settings:before { content: '\e819'; } /* '' */
+.icon-delete:before { content: '\e81a'; } /* '' */
+.icon-down:before { content: '\e81b'; } /* '' */
+.icon-downarrow:before { content: '\e81c'; } /* '' */
+.icon-reference:before { content: '\e81d'; } /* '' */
+.icon-information:before { content: '\e81e'; } /* '' */
+.icon-userprivileges:before { content: '\e81f'; } /* '' */
+.icon-folloup:before { content: '\e820'; } /* '' */
+.icon-logout:before { content: '\e821'; } /* '' */
+.icon-accounts:before { content: '\e822'; } /* '' */
+.icon-agreement:before { content: '\e823'; } /* '' */
+.icon-allotment:before { content: '\e824'; } /* '' */
+.icon-category:before { content: '\e826'; } /* '' */
+.icon-communication:before { content: '\e827'; } /* '' */
+.icon-complaints:before { content: '\e828'; } /* '' */
+.icon-confirm:before { content: '\e829'; } /* '' */
+.icon-phone:before { content: '\e82a'; } /* '' */
+.icon-customeragreement:before { content: '\e82b'; } /* '' */
+.icon-customers:before { content: '\e82c'; } /* '' */
+.icon-dblog:before { content: '\e82d'; } /* '' */
+.icon-documenttype:before { content: '\e82e'; } /* '' */
+.icon-excel:before { content: '\e82f'; } /* '' */
+.icon-facility:before { content: '\e830'; } /* '' */
+.icon-facilitytypes:before { content: '\e831'; } /* '' */
+.icon-feedback:before { content: '\e832'; } /* '' */
+.icon-financialaccounts:before { content: '\e833'; } /* '' */
+.icon-icon-reply:before { content: '\e834'; } /* '' */
+.icon-icon-resume:before { content: '\e835'; } /* '' */
+.icon-suspend:before { content: '\e836'; } /* '' */
+.icon-income-and-expense:before { content: '\e837'; } /* '' */
+.icon-inventory:before { content: '\e838'; } /* '' */
+.icon-inventorytransfer:before { content: '\e839'; } /* '' */
+.icon-invoice:before { content: '\e83a'; } /* '' */
+.icon-items:before { content: '\e83b'; } /* '' */
+.icon-language:before { content: '\e83c'; } /* '' */
+.icon-logoout:before { content: '\e83d'; } /* '' */
+.icon-parameters:before { content: '\e83e'; } /* '' */
+.icon-printer:before { content: '\e83f'; } /* '' */
+.icon-process:before { content: '\e840'; } /* '' */
+.icon-read:before { content: '\e841'; } /* '' */
+.icon-renewal:before { content: '\e842'; } /* '' */
+.icon-report:before { content: '\e843'; } /* '' */
+.icon-resume:before { content: '\e845'; } /* '' */
+.icon-return:before { content: '\e846'; } /* '' */
+.icon-services:before { content: '\e847'; } /* '' */
+.icon-stock:before { content: '\e848'; } /* '' */
+.icon-store:before { content: '\e849'; } /* '' */
+.icon-terminate:before { content: '\e84a'; } /* '' */
+.icon-thirdaprty:before { content: '\e84b'; } /* '' */
+.icon-transferhistory:before { content: '\e84c'; } /* '' */
+.icon-verification:before { content: '\e84d'; } /* '' */

@@ -1,0 +1,50 @@
+/* here you can put your own css to customize and override the theme */
+
+/* Three layer code { }*/
+*
+{
+	margin: 0;
+	padding: 0 ;
+	border: 0 none;
+}
+.page-wrap
+{
+	width: 100%;
+	float: left;
+}
+.page-first
+{
+	width: 225px;
+	float: left;
+}
+.page-second
+{
+	width: 225px;
+	float: left;
+}
+.page-third
+{
+	width: auto;
+	min-width: 225px;
+	overflow: hidden;
+}
+@media screen and (max-width: 699px){
+	.page-second
+	{
+		display: none;
+	}
+}
+@media screen and (max-width: 499px){
+	.page-second
+	{
+		display: none;
+	}
+	.page-first
+	{
+		width: 50px;
+	}
+}
+/*THREE LAYER CODE } */
+
+
+/* AJAY */

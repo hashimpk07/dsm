@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?98413487');
+  src: url('../font/fontello.eot?98413487#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?98413487') format('woff'),
+       url('../font/fontello.ttf?98413487') format('truetype'),
+       url('../font/fontello.svg?98413487#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?98413487#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-accounts:before { content: '\e800'; } /* '' */
+.icon-agreement:before { content: '\e801'; } /* '' */
+.icon-allotment:before { content: '\e802'; } /* '' */
+.icon-approve:before { content: '\e803'; } /* '' */
+.icon-category:before { content: '\e804'; } /* '' */
+.icon-communication:before { content: '\e805'; } /* '' */
+.icon-complaints:before { content: '\e806'; } /* '' */
+.icon-confirm:before { content: '\e807'; } /* '' */
+.icon-phone:before { content: '\e808'; } /* '' */
+.icon-customeragreement:before { content: '\e809'; } /* '' */
+.icon-customers:before { content: '\e80a'; } /* '' */
+.icon-dblog:before { content: '\e80b'; } /* '' */
+.icon-documenttype:before { content: '\e80c'; } /* '' */
+.icon-excel:before { content: '\e80d'; } /* '' */
+.icon-facility:before { content: '\e80e'; } /* '' */
+.icon-facilitytypes:before { content: '\e80f'; } /* '' */
+.icon-feedback:before { content: '\e810'; } /* '' */
+.icon-financialaccounts:before { content: '\e811'; } /* '' */
+.icon-reply:before { content: '\e812'; } /* '' */
+.icon-resume:before { content: '\e813'; } /* '' */
+.icon-icon-suspend:before { content: '\e814'; } /* '' */
+.icon-incomeexpense:before { content: '\e815'; } /* '' */
+.icon-inventory:before { content: '\e816'; } /* '' */
+.icon-inventorytransfer:before { content: '\e817'; } /* '' */
+.icon-invoice:before { content: '\e818'; } /* '' */
+.icon-items:before { content: '\e819'; } /* '' */
+.icon-language:before { content: '\e81a'; } /* '' */
+.icon-logoout:before { content: '\e81b'; } /* '' */
+.icon-parameter:before { content: '\e81c'; } /* '' */
+.icon-printer:before { content: '\e81d'; } /* '' */
+.icon-process:before { content: '\e81e'; } /* '' */
+.icon-read:before { content: '\e81f'; } /* '' */
+.icon-renewal:before { content: '\e820'; } /* '' */
+.icon-report:before { content: '\e821'; } /* '' */
+.icon-return:before { content: '\e824'; } /* '' */
+.icon-services:before { content: '\e825'; } /* '' */
+.icon-stock:before { content: '\e826'; } /* '' */
+.icon-store:before { content: '\e827'; } /* '' */
+.icon-terminate:before { content: '\e828'; } /* '' */
+.icon-thirdaprty:before { content: '\e829'; } /* '' */
+.icon-transferhistory:before { content: '\e82a'; } /* '' */
+.icon-verification:before { content: '\e82b'; } /* '' */
+.icon-addition:before { content: '\e82c'; } /* '' */
+.icon-arrowup:before { content: '\e82d'; } /* '' */
+.icon-businessman:before { content: '\e82e'; } /* '' */
+.icon-check:before { content: '\e830'; } /* '' */
+.icon-close:before { content: '\e831'; } /* '' */
+.icon-dark:before { content: '\e833'; } /* '' */
+.icon-eye:before { content: '\e835'; } /* '' */
+.icon-filter:before { content: '\e836'; } /* '' */
+.icon-magnifier:before { content: '\e837'; } /* '' */
+.icon-male:before { content: '\e838'; } /* '' */
+.icon-next:before { content: '\e839'; } /* '' */
+.icon-overflowing:before { content: '\e83a'; } /* '' */
+.icon-plus:before { content: '\e83c'; } /* '' */
+.icon-power:before { content: '\e83d'; } /* '' */
+.icon-previous:before { content: '\e83e'; } /* '' */
+.icon-profile:before { content: '\e83f'; } /* '' */
+.icon-cross:before { content: '\e840'; } /* '' */
+.icon-reload:before { content: '\e841'; } /* '' */
+.icon-trash:before { content: '\e842'; } /* '' */
+.icon-users2:before { content: '\e843'; } /* '' */
+.icon-add:before { content: '\e844'; } /* '' */
