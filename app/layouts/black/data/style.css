@@ -1,0 +1,127 @@
+
+
+
+
+
+/* =============================================================================
+
+	STYLE.CSS
+	version: 1.6
+	updated: 2009-03-06, 13:00 GMT+1
+
+============================================================================= */
+
+/* =============================================================================
+HTML - styles
+============================================================================= */
+
+body {background-color:#eaeaea; color:#303030; font-family: 'Berlin Sans FB', 'Tahoma', sans-serif; font-weight: normal;}
+a {color:#000;}
+a:hover, a:active, a:focus {color:#df0000;}
+#content h2 {color:#333; margin: 5px 1%; font-weight: normal;}
+#content table {border:2px solid #cfcfcf;}
+#content table th {border-right:1px solid #c5c5c5; font-weight: normal; font-size: 16px; font-family: Corbel;}
+#content table td {border:1px solid #c5c5c5;}
+#content dl dt {color:#df0000;}
+#content fieldset {border:1px solid #ccc; border: 1px solid #AAA !important}
+#content acronym, #content abbr, #content .help {border-bottom:1px dotted #cfcfcf;}
+
+/* =============================================================================
+HTML - without styles
+============================================================================= */
+
+table.nostyle th, dl.nostyle dt {color:#303030 !important;}
+
+/* =============================================================================
+LAYOUT
+============================================================================= */
+
+#tray {
+	height: 60px;
+}
+#tray p{
+	font-size: 16px;
+}
+#tray a, #tray strong {color:#fff;}
+#tray a:hover, #tray a:active, #tray a:focus {color:#b4e3ff;}
+#menu {
+	height: 30px;
+}
+#menu ul li a {color:#303030; padding: 0 10px; font-family: 'Berlin Sans FB', sans-serif}
+#menu ul li a span {background-color:transparent;}
+#menu ul li a:hover, #menu ul li a:active, #menu ul li a:focus, #menu ul li.menu-active a {color:#000;}
+#menu ul li a:hover span, #menu ul li.menu-active a span {background-color:transparent;}
+#menu ul.f-right a {color:#df0000;}
+#content {border:1px solid #afafaf; background:#fff;}
+#footer {color:#707070;}
+#footer a {color:#707070;}
+#footer a:hover, #footer a:active, #footer a:focus {color:#303030;}
+
+/* =============================================================================
+OTHERS
+============================================================================= */
+
+#aside #logo img {border:1px solid #bfbfbf;}
+#aside #search fieldset a {color:#303030;}
+#aside #search fieldset {border:1px solid #bfbfbf;}
+#aside #search fieldset a:hover, #aside #search fieldset a:active, #aside #search fieldset a:focus {color:#df0000;}
+#aside #btn-create a {background-color:#fff; color:#303030;}
+#aside #btn-create a span {background-color:#fff;}
+#aside ul li a {border-bottom:1px solid #cfcfcf; color:#303030;}
+#aside ul li#submenu-active a {background-color:#df0000; color:#fff;}
+#aside ul li a:hover, #aside ul li a:active, #aside ul li a:focus {color:#df0000;}
+#aside ul ul li a, #aside ul li#submenu-active ul li a {border-bottom:1px solid #cfcfcf; background-color:#f5f5f5; color:#303030;}
+#aside ul li ul li a {background-color:#e3e3e3;}
+#aside ul ul li a:hover, #aside ul ul li a:active, #aside ul ul li a:focus, #aside ul li#submenu-active ul li a:hover, #aside ul li#submenu-active ul li a:active, #aside ul li#submenu-active ul li a:focus {color:#df0000;}
+#content h1 {color:#fff; font-size: 24px; font-weight: normal; text-transform: uppercase}
+#content h1 .crmbutton{ 
+	border: 5px solid #333333;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 1px 1px 0 #696969;
+    margin-top: -3px;
+    padding: 0 5px;
+}
+#content h1 .crmbutton:hover{ 
+	border: 5px solid #333333;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 4px 4px #696969 inset;
+    margin-top: -3px;
+    padding: 0 5px;
+}
+#content .tabs {border-bottom:1px solid #cfcfcf;}
+#content .tabs a {color:#303030;}
+#content .tabs a span {color:#303030;}
+#content .tabs .ui-tabs-selected a {color:#fff;}
+#content .tabs .ui-tabs-selected a span {color:#fff;}
+.high {color:#df0000;}
+.high-bg {background:#FFB;}
+.low {color:#707070;}
+
+/* =============================================================================
+MESSAGES
+============================================================================= */
+
+.msg.warning {border:2px solid #F2DD8C; background-color:#FFF5CC;}
+.msg.warning a {color:#df0000;} .msg.warning a:hover, .msg.warning a:active, .msg.warning a:focus {color:#303030;}
+.msg.info {border:2px solid #B8E2FB; background-color:#E8F6FF;}
+.msg.done {border:2px solid #BBDF8D; background-color:#EAF7D9;}
+.msg.error {border:2px solid #FFAEAE; background-color:#FEEBEB;}
+
+.loginbutton
+{
+height:20px;
+}
+
+body
+{
+	background: #A9D4FF; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	/*background:#A9D4FF center bottom repeat-x, url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJmOWNlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background:#A9D4FF center bottom repeat-x, -moz-linear-gradient(top, #2f9cef 0%, #ffffff 100%); /* FF3.6+ */
+	/*background:#A9D4FF center bottom repeat-x, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f9cef), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+/*	background:#A9D4FF center bottom repeat-x, -webkit-linear-gradient(top, #2f9cef 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	/*background:#A9D4FF center bottom repeat-x, -o-linear-gradient(top, #2f9cef 0%,#ffffff 100%); /* Opera 11.10+ */
+	/*background:#A9D4FF center bottom repeat-x, -ms-linear-gradient(top, #2f9cef 0%,#ffffff 100%); /* IE10+ */
+	/*background:#A9D4FF center bottom repeat-x, linear-gradient(to bottom, #2f9cef 0%,#ffffff 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f9cef', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+}

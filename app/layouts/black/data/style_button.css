@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+*,html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,label,fieldset,input,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul,li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-weight:normal;padding-bottom:10px;}q:before,q:after{content:''}strong{font-weight:bold}em{font-style:italic}.italic{font-style:italic}
+.aligncenter{display:block;margin:0 auto;}
+.alignleft{float:left;margin:10px;}
+.alignright{float:right;margin:10px;}
+.no-margin{margin:0px;}.no-bottom{margin-bottom:0px;}
+.no-padding{padding:0px;}
+.margin-t{margin-top:25px;}
+div{position:relative}
+a{text-decoration:none;color:#0073B2;}
+a:hover{text-decoration:underline;}
+a:active,a:focus{outline:none;}
+div,img{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;
+}html{-webkit-font-smoothing:antialiased;}
+body{background:#e0e0e0;color:#454545;}
+#menu-holder{width:600px;margin:100px auto;}
+.set-1 ul li{display:inline-block;margin-top:20px;}
+.set-2{margin-top:50px;}
+.set-2 ul li{display:inline-block;margin-left:20px;margin-top:20px;}
+.content{margin-top:100px;text-align:center;}
+.set-1 a{position:relative;color:#ffffff;text-decoration:none;font-family:'Oswald';display:block;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;width:60px;text-align:center;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0);-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;height:54px;cursor:pointer;overflow:hidden;font:0/0 a;text-shadow:none;color:transparent;}
+.set-1 a:active,.set-2 a:active{-webkit-transform:translate(0,3px);-moz-transform:translate(0,3px);transform:translate(0,3px);}
+.set-2 a{position:relative;color:#ffffff;text-decoration:none;font-family:'Oswald';display:block;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;font-size:16px;padding:10px 15px 10px 60px;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0);-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;}
+a.login-button,a.twitter-big{-webkit-box-shadow:0px 6px 0px #2695BC;-moz-box-shadow:0px 6px 0px #2695BC;box-shadow:0px 6px 0px #2695BC;}
+a.login-button{background:#2CA9E1 url(images/mark.png) no-repeat center center;width:295px}
+
+a.login-button:active,a.twitter-big:active{-webkit-box-shadow:0px 2px 0px #2695BC;-moz-box-shadow:0px 2px 0px #2695BC;box-shadow:0px 2px 0px #2695BC;}
