@@ -1,0 +1,378 @@
+
+.transparent-table, .transparent-table tr, .transparent-table tr th, .transparent-table tr td
+{
+	border: 0 !important;
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+}
+.transparent-table
+{
+	padding: 0 !important;
+}
+#searchForm
+{
+	margin-top: 0px;
+}
+/* search page */
+#idSearchArea .searchbtn
+{
+	float: right;
+	padding: 1px 10px 0 0;
+	vertical-align: middle;
+}
+#idSearchArea .searchinput
+{
+	border: 1px solid transparent !important ;
+	background: transparent ;
+	width: 150px;
+	color: white;
+	float: left;
+}
+#idSearchArea .searchlabel
+{
+	float: left;
+	color: white;
+	font-weight: normal ;
+	width: auto ;
+	padding: 3px !important ;
+}
+#idSearchArea
+{
+	float: right;
+	margin: 0 5px;
+	background: transparent;
+	/*width: 190px;
+	border : 1px solid white;*/
+	padding: 5px ;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	font-weight: bold;
+	font-size: 14px;
+	box-shadow: 0 -2px 5px 5px #333 inset;
+	height: 30px;
+	padding: 2px 2px 2px 8px !important;
+	color: #FFF;
+}
+#idSearchArea .searchbutton
+{
+	float: left;
+	margin: 0 3px ;
+	font-size: 14px;
+}
+.clear
+{
+	clear: both;
+}
+/*search pages*/
+
+
+
+input[type=text], input[type=password]
+{
+	border: 1px solid #AAA;
+	padding: 3px !important;
+	background: transparent;
+	border-radius: 3px;
+}
+textarea
+{
+	border: 1px solid #AAA !important;
+	padding: 3px !important;
+	background: transparent;
+	border-radius: 3px;
+}
+select
+{
+	border: 1px solid #AAA !important;
+	padding: 3px !important;
+	border-radius: 3px;
+}
+
+/* pager */
+
+.pager
+	{
+		float: left;
+		list-style: none;
+	}
+	.pager li
+	{
+		float: left;
+		list-style: none;
+		background: none !important;
+		padding: 0 !important;
+	}
+	.pager li a.nohighlight
+	{
+		color: white !important;
+		background: #3c98d2;
+	}
+	.pager li a.first-enabled, .pager li a.prev-enabled, .pager li a.next-enabled, .pager li a.last-enabled, .pager li a.anchor-enabled,
+	.pager li a.first-disabled, .pager li a.prev-disabled, .pager li a.next-disabled, .pager li a.last-disabled, .pager li a.anchor-disabled
+	{
+		color: black;
+	}
+	.pager li a
+	{
+		background: #6eb6e7;
+		border: 1px solid #6eb6e7;
+		padding : 4px 10px !important;
+		text-decoration: none !important;
+		border-radius: 4px;
+		margin: 2px;
+		cursor: pointer;
+	}
+	.pager-ipp
+	{
+		float: left;
+	}
+	.pager-ipp li
+	{
+		float: left;
+		padding : 3px 5px !important;
+		list-style: none;
+		background: none !important;
+	}
+	
+/* pager end */
+
+.colorpicker
+{
+	display: none;
+}
+
+#idNotificationArea
+{
+	width: 100%;
+	float: left;
+	background: darkred ;
+}
+
+#idWorkArea
+{
+	float: left; clear: both; width: 100%;
+	margin: 10px 0;
+	border: 1px solid #aaa;
+	display: none;
+}
+#idListArea
+{
+	padding: 10px 0 ;
+}
+#idListArea .tblsettings
+{
+	
+}
+#idListArea .tblsettings .lstsettingswrap
+{
+	position: relative;
+	cursor: pointer;
+}
+#idListArea .tblsettings img
+{
+	cursor: pointer;
+}
+#idListArea .tblsettings .lstsettings
+{
+	z-index: 999;
+	border: 1px solid silver;
+	padding: 5px 20px ;
+	display: none;
+	position: absolute;
+	background: #fff;
+	right: 10px;
+	top: 10px;
+	float: left;
+}
+#idListArea .tblsettings .lstsettings label
+{
+	display: block;
+	line-height: 20px;
+	text-align: center;
+	font-size: 13px;
+	border-bottom: 1px dashed silver; 
+	cursor: pointer;
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #303030;
+}
+.lstsettings .lstsortaction:hover
+{
+	color: #00F;
+}
+#idListArea .tblsettings .lstsettings label:hover
+{
+	border-bottom: 1px dashed #333; 
+}
+#idListArea .tblsettings img:hover, #idListArea .tblsettings div:hover
+{
+	opacity: 1.0;
+}
+#idListArea .tblsettings img, #idListArea .tblsettings div
+{
+	opacity: 0.5;
+}
+#idListArea table tr
+{
+	height: 20px;
+}
+.bulkaction
+{
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+}
+.bulkaction label:hover
+{
+	border-bottom: 1px dashed #696969 ;
+}
+.viewgrpwrap{
+	float: left;
+	border-radius: 4px;
+	padding: 1% !important;
+}
+.viewgrpwrap{						 
+	margin: 1% !important;
+}
+
+.viewgrpwrap, .editgrpwrap
+{
+	width: 100% ;
+	float: left;
+	clear: both;
+}
+.editgrpwrap fieldset
+{
+	border: 0 none !important;
+}
+.eMessage
+{
+	color: red ;
+	font-size: 12px;
+}
+.blocked td
+{
+    color: #FF0000;	
+}
+.blocked
+{
+    border-left: 2px solid #FF0000 ;
+
+}
+.viewgrpwrap-hidden
+{
+	display: none;
+	background: #fff;
+	width : auto;
+	height: auto;
+	top: 50%;
+	padding: 20px;
+	border: 1px solid silver;
+	border-radius: 5px;
+}
+.viewgrpwrap-hidden .noborder, .viewgrpwrap-hidden .noborder tr, .viewgrpwrap-hidden .noborder tr td
+{
+	border: 0 !important;
+}
+.dvfrmsubmit
+{
+	width: 97%;
+	float: left;
+}
+.alttable .bg
+{
+	background: #DDD;
+}
+.tab-sortable th a
+{
+	color: inherit ;
+	text-decoration: none;
+}
+.tab-sortable th a:hover
+{
+	text-decoration: underline;
+}
+.virtual-table
+{
+	display: table;
+}
+.virtual-table .tr
+{
+	display: table-row ;
+}
+.virtual-table .tr .td
+{
+	display: table-cell ;
+}
+.married
+{
+	display: none;
+}
+.advancedSearch table td, .advancedSearch table
+{
+	border: 0 none !important;
+}
+.searchlabel a
+{
+	color: inherit !important;
+}
+.advancedSearch
+{
+	padding-right: 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#content .mceLayout table td 
+{
+	padding: 0 !important ;
+}
+
+
+.rptlist
+{
+	width: 140px;
+}
+
+input[type=submit], input[type=button]
+{
+	padding: 2px 5px;
+	border: 1px solid #333;
+	border-radius: 2px;
+	cursor: pointer ;
+}
+
+
+/* css for timepicker { */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
+/* css for timepicker } */
+
+
+.married td
+{
+	background: #DDD !important;
+}
+.searchTable td
+{
+	color: #000;
+}
+.detailsof
+{
+	font-size: 1.1em; 
+}
+.detailsof span
+{
+	font-weight: bold;
+}
+
